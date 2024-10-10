@@ -127,8 +127,8 @@ if __name__ == "__main__":
 
 
     ap = argparse.ArgumentParser()
-    ap.add_argument("-i", "--input", required=False, type=str, default="input/iris.csv",
-                    help="Source data path. Default: ./input/iris.csv")
+    ap.add_argument("-i", "--input", required=False, type=str, default="input/Churn_Modelling.csv",
+                    help="Source data path. Default: ./input/Churn_Modelling.csv")
     ap.add_argument("-s", "--sep", required=False, type=str, default=",",
                     help="Source data file delimiter. Default: ,")
     ap.add_argument("-e", "--source_file_extension", required=False, type=str, default="csv",
